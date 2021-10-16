@@ -1,0 +1,277 @@
+<style>
+#sola{
+fill: rgb(220,220,220);
+}
+
+.barriga{
+     fill: rgb(70,130,180);
+	 animation: movebarriga 0.3s ease-in-out infinite alternate;
+}
+.corpo {    
+	fill: rgb(70,130,180);
+	animation: movecorpo 0.5s ease-in-out infinite alternate;
+	}
+.unhasme{
+    fill: rgb(220,220,220);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.sola{
+     fill: rgb(70,130,180);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.presas{
+     fill: rgb(225,225,225);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.pupilas{
+     fill: rgb(0,0,0);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.olhos{
+     fill: rgb(225,225,225);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.intorelha{
+     fill: rgb(65,105,225);
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.linhaorelha{
+	 animation: movecorpo 0.5s ease-in-out infinite alternate;
+}
+.unhasp{
+     fill: rgb(220,220,220);
+}
+.pernas{
+fill: rgb(70,130,180);
+}
+
+.bd{
+     fill: rgb(70,130,180);
+	 transform-origin: bottom left;
+	 animation: movebraco 0.7s ease-in-out infinite alternate;
+	 }
+.unhasmd{
+    fill: rgb(220,220,220);
+	transform-origin: bottom left;
+	 animation: movebraco 0.7s ease-in-out infinite alternate;
+}
+@keyframes movebarriga{
+from{
+transform:translatey(-20px);
+}}
+@keyframes movecorpo{
+from{
+transform:translatey(-10px);
+}}
+@keyframes movebraco{
+0%{transform:rotate(0); }
+50%{transform:rotate(-5deg);}
+100%{transform:rotate(5deg);}
+}
+</style>	
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500px" height="600px">
+			
+<rect  class="corpo" x="150" y="226" height="230" width="175"/>
+			
+<!--PERNA DIREITA-->
+<path class='pernas'  
+		d="M 260,455 C290,510 300,570 
+             338,582 C350,580 380,580
+             390,582 C400,570 360,460
+			 355,393"
+		      stroke="black" fill="none" />
+<path class='unhasp' d="M 374,581 C380,560 390,560 
+						  393,581 Z375,581" 
+						  stroke="black" fill="none" />
+<path class='unhasp' d="M 354,581 C360,560 370,560 
+						  375,581 Z354,581" 
+						  stroke="black" fill="none" />
+<path class='unhasp' d="M 335,581 C345,560 350,560 
+						  355,581 Z335,581" 
+						  stroke="black" fill="none" />
+<path class='pernas' 
+	  d="M 352,495 C351,498 348,507 
+		   343,509 C334,513 329,514
+		   325,510 C324,508 324,500
+           329,496 C332,495 341,492
+		   344,495 C345,497 346,501
+		   342,504 C340,505 333,509
+		   332,505 C331,503 338,500
+		   339,499
+				" stroke="black" fill="none" />
+
+	 
+<!--PERNA ESQUERDA-->
+<path class='pernas'  
+						  d="M 150,270 C140,350 130,410 
+							   130,450 C140,460 100,540
+							   100,575 C100,590 150,580
+							   160,583 C180,580 220,500
+							   230,457" 
+						stroke="black" fill="none" />
+<path class='unhasp' d="M 145,582 C150,560 160,560 
+						  165,582 Z145,582" 
+						  stroke="black" fill="none" />
+<path class='unhasp' d="M 124,583 C130,560 140,560 
+						  145,582 Z124,583" 
+						  stroke="black" fill="none" />
+<path class='unhasp' d="M 105,582 C115,560 120,560 
+						  125,582 Z105,582" 
+						  stroke="black" fill="none" />
+<path class='pernas'   
+                               d="M 169,495 C168,498 165,507 
+									160,509 C152,513 146,514
+									142,510 C141,508 141,500
+									146,496 C149,495 154,492
+									162,495 C162,497 163,501
+									159,504 C157,505 150,509
+									149,505 C148,503 155,500
+									156,499
+				" stroke="black" fill="none" />
+				
+		   
+
+
+	<!--ORELHA ESQUERDA-->
+<path  class='corpo' 
+	     d='M 170,090 C110,010 -60,020
+	           040,160 C060,190 20,240
+			   040,255 C060,260 140,270
+			   160,230'
+			fill='none' stroke='black'/>
+<path  class='intorelha' 
+		  d='M 170,105 C140,090 120,060
+	           070,060 C060,060 030,060
+			   025,080 C025,105 055,125
+			   055,150 C070,178 -15,308
+			   155,225'
+			   fill='none' stroke='none'/>	
+<path  class='linhaorelha' 
+		  d='M 170,105 C140,090 120,060
+	           070,060 C060,060 030,060
+			   025,080 C025,105 055,125
+			   055,150 C070,178 -15,308
+			   155,225'
+			   fill='none' stroke='black'/>	
+			   
+
+			   
+	<!--ORELHA DIREITA-->
+<path  class='corpo' 
+			d='M 290,070 C330,030 390,000
+				 430,040 C470,080 430,150
+				 420,170 C410,190 450,210
+				 440,230 C410,290 320,220
+				  310,230'
+			   fill='none' stroke='black'/>
+<path class='intorelha'  
+		  d='M 325,210 C325,210 460,290
+	           410,180 C400,155 440,140
+			   430,085 C415,000 305,080
+			   295,085'
+			   fill='none' stroke='none'/>	
+<path class='linhaorelha'  
+		  d='M 325,210 C325,210 460,290
+	           410,180 C400,155 440,140
+			   430,085 C415,000 305,080
+			   295,085'
+			   fill='none' stroke='black'/>		
+
+	<!--BRAÇO DIREITO-->
+<path  class='bd'   d='M 255,225 C365,175 420,155
+							445,155 C455,160 460,185
+							460,195 C470,220 425,250
+							295,295,'
+							fill='none' stroke='black'/>
+<path  class='unhasmd' d='M 432,170 C415,175 400,165 
+						   428,157 Z432,170' 
+						   fill='none' stroke='black'/>
+<path  class='unhasmd' d='M 430,170 C395,175 405,210 
+						   435,185 Z430,170' 
+						fill='none' stroke='black'/>
+<path  class='bd' id='sola' d='M 428,158 C436,147 450,150 
+					             452,158 C494,242 428,204
+					             428,158' fill='none' stroke='black'/>
+
+ <!--BRAÇO ESQUERDO-->
+<path  class='corpo'   d="M 150,290 C055,425 055,390 
+							023,375 C-20,350 110,250
+							135,235 C140,230 155,225
+							165,220 
+							"stroke="black" fill="none" />
+<path  class='unhasme' d='M 40,358 C50,340 30,325 
+						   25,353 Z40,358' 
+						   stroke='black' fill='none'/>
+<path  class='unhasme' d='M 24,352 C30,336 34,314
+						   16,350 Z24,352'
+						   stroke='black'  fill='none'/>
+<path  class='corpo' id='sola'  d='M 14,350 C70,360 85,430 
+						   14,368 C12,366 08,356
+						   14,350' stroke='black'  fill='none'/>
+		   
+<!--BARRIGA-->
+<rect  class="corpo" x="150" y="226" height="210" width="160"/>
+<path class="barriga" class='corpo' d="M 190,480 C340,520 410,410 315,260" stroke='black'  fill="none" />
+<path class="barriga" class='corpo' d="M 282,422 C281,425 280,424
+										 279,425 C276,426 274,427
+										 273,425 C273,421 276,422
+										 277,421" 
+										 stroke="black" fill="none" />	
+
+
+		   
+		<!--CABEÇA-->
+<path  class='corpo' d='M 160,185 C134,140 150,100 
+						  175,076 C212,046 282,058 
+						  302,074 C340,095 334,144
+						  328,174'
+						  fill='none' stroke='black'/>
+<path  class='corpo'  d='M 170,180 C120,175 130,210
+						   180,235 C320,280 400,150
+						   315,170'
+						   fill='none' stroke='black'/>
+			
+<!--OLHO ESQUERDO-->
+
+<ellipse  class='olhos' cx=200 cy=135 rx=20 ry=35 fill='none' stroke='black'/>
+<path  class='pupilas' d='M 214,160 C228,140 210,115  
+						    202,115 C186,115 176,136
+							184,160 C186,168 200,185
+							214,160'
+							fill='none' stroke='black'/>
+<ellipse  class='olhos' cx=190 cy=135 rx=5 ry=5 fill='none' stroke='black'/>
+<ellipse  class='olhos' cx=205 cy=125 rx=10 ry=10 fill='none' stroke='black'/>
+
+<!--OLHO DIREITO-->
+<ellipse  class='olhos' cx=280 cy=135 rx=20 ry=35 fill='none' stroke='black'/>
+<path  class='pupilas' d='M 294,160 C308,140 290,115  
+						    282,115 C266,115 256,136
+							264,160 C266,168 280,185
+							294,160' 
+							fill='none' stroke='black'/>
+<ellipse class='olhos'  cx=270 cy=135 rx=5 ry=5 fill='none' stroke='black'/>
+<ellipse  class='olhos' cx=285 cy=125 rx=10 ry=10 fill='none' stroke='black'/>
+
+<!--PRESAS-->
+<path class='presas'  d='M 270,190 C280,190 310,180
+						   320,175 C350,125 340,120
+						   335,170 C335,195 290,220
+						   260,210' 
+						   fill='none' stroke='black'/>
+<path class='presas'  d='M 210,190 C200,190 170,180
+						   160,175 C130,125 140,120
+						   145,170 C150,195 190,220
+						   205,210' 
+						   fill='none' stroke='black'/>
+<!--tromba-->
+ <path class='corpo'   d='M 280,180 C250,220 290,390
+							270,386 C266,385 262,385
+							261,385 C261,385 262,400
+							256,395 C200,350 195,220
+							205,175'
+			fill='none' stroke='black''/>
+			
+			
+
+	   
+</svg>

@@ -1,0 +1,165 @@
+
+  /** ELEMENTOS REFERENTES A PÁGINA EM SI**/
+  body{
+  animation: fundao 10s ease alternate infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#bce44f,#bf9948);
+  background-size:200% 200%;
+  display:block;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  margin: 10%;
+  }
+
+  .image1{position: relative;
+
+}
+
+  .image2{position:absolute;
+    margin-top: 0%;
+    margin-left: -40%;
+    width: 10%;}
+
+  .image4{display: inline-block;
+    margin-top: 2%;
+    height: 650px;
+    width:  50%;
+  }
+
+  .hr{ 
+    size:7;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .footer{
+    text-align: right;
+    margin-bottom: 0px;
+    padding: 0px;
+  }   
+  
+  @keyframes fundao{
+  0%{background-position: 0 50%;}
+  50%{background-position: 100% 50%;}
+  100%{background-position: 0% 50%;}
+  }
+  
+ /**ELEMENTOS REFERENTES AO ELEFANTE*/ 
+ #sola{
+  fill: rgb(220,220,220);
+  }
+  
+  .barriga{
+       fill: rgb(70,130,180);
+     animation: movebarriga 0.3s ease-in-out infinite alternate;
+  }
+  .corpo {    
+    fill: rgb(70,130,180);
+    animation: movecorpo 0.5s ease-in-out infinite alternate;
+    }
+  .unhasme{
+      fill: rgb(220,220,220);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .sola{
+       fill: rgb(70,130,180);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .presas{
+       fill: rgb(225,225,225);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .pupilas{
+       fill: rgb(0,0,0);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .olhos{
+       fill: rgb(225,225,225);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .intorelha{
+       fill: rgb(65,105,225);
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .linhaorelha{
+     animation: movecorpo 0.5s ease-in-out infinite alternate;
+  }
+  .unhasp{
+       fill: rgb(220,220,220);
+  }
+  .pernas{
+  fill: rgb(70,130,180);
+  }
+  
+  .bd{
+       fill: rgb(70,130,180);
+     transform-origin: bottom left;
+     animation: movebraco 0.7s ease-in-out infinite alternate;
+     }
+  .unhasmd{
+      fill: rgb(220,220,220);
+    transform-origin: bottom left;
+     animation: movebraco 0.7s ease-in-out infinite alternate;
+  }
+  @keyframes movebarriga{
+  from{
+  transform:translatey(-20px);
+  }}
+  @keyframes movecorpo{
+  from{
+  transform:translatey(-10px);
+  }}
+  @keyframes movebraco{
+  0%{transform:rotate(0); }
+  50%{transform:rotate(-5deg);}
+  100%{transform:rotate(5deg);}
+  }
+/**ELEMENTOS REFERENTES AO FLAMINGO*/
+  .flamingos{
+      stroke: none;
+  }
+  .dark {stroke:gray;stroke-miterlimit:22.9256; fill:gray; }
+  .water {animation: approach 5s alternate infinite;
+    stroke:black;stroke-width:0.9;stroke-miterlimit:22.9256;fill:none}	
+  
+  .bodyf {fill:#FFA0B3; }
+  .wingsr{
+    transform-origin: 269px 207px;
+        animation: openwingsr 2s ease-out 5s alternate infinite;
+        fill:#ED467A;  }
+  .wingsl{
+          transform-origin: 231px 209px;
+              animation: openwingsl 2s ease-out 5s alternate infinite;
+              fill:#ED467A;  }
+  .thighs{fill:#ED467A; }
+  .legs {fill:#EFAF95; }
+  .eyes {fill:#EFAF95; }
+  .nozzle {fill:#FFA0B3;}
+
+
+
+  @keyframes approach{
+   100%{
+     transform: scaleX(2) translateX(-140px)}}
+
+
+  @keyframes openwingsr{
+    0%{ transform: rotate(0deg); }
+    25%{transform:rotate(-90deg);}
+    35%{transform:rotate(-40deg);}
+    45%{transform:rotate(-90deg);}
+    55%{transform:rotate(0deg);}
+    100%{ transform:rotate(0deg);}
+    }
+
+  
+   @keyframes openwingsl{
+        0%{ transform: rotate(0deg); }
+        25%{transform:rotate(90deg);}
+        35%{transform:rotate(40deg);}
+        45%{transform:rotate(90deg);}
+        55%{transform:rotate(0deg);}
+        100%{ transform:rotate(0deg);}
+        }  
