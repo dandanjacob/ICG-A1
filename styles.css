@@ -12,7 +12,9 @@
   }
 
   .image1{position: relative;
-
+margin-left: 10%;
+margin-left: 10%;
+width: 75%;
 }
 
   .image2{position:absolute;
@@ -22,8 +24,8 @@
 
   .image4{display: inline-block;
     margin-top: 2%;
-    height: 650px;
-    width:  50%;
+    height: auto;
+    width: 50%;
   }
 
   .hr{ 
