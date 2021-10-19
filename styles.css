@@ -1,7 +1,7 @@
 
   /** ELEMENTOS REFERENTES A PÁGINA EM SI**/
   body{
-  animation: fundao 10s ease alternate infinite;
+  animation: fundao 8s ease alternate infinite;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#bce44f,#bf9948);
   background-size:200% 200%;
   display:block;
@@ -28,7 +28,7 @@ width: 75%;
   .image4{display: inline-block;
     margin-top: 2%;
     height: auto;
-    width: 50%;
+    width: 30%;
   }
 
   .hr{ 
@@ -43,7 +43,9 @@ width: 75%;
     text-align: right;
     margin-bottom: 0px;
     padding: 0px;
-  }   
+  }  
+  
+
   
   @keyframes fundao{
   0%{background-position: 0 50%;}
@@ -117,9 +119,9 @@ width: 75%;
   transform:translatey(-10px);
   }}
   @keyframes movebraco{
-  0%{transform:rotate(0); }
-  50%{transform:rotate(-5deg);}
-  100%{transform:rotate(5deg);}
+  0%{transform:rotate(0deg); }
+  50%{transform:rotate(-2deg);}
+  100%{transform:rotate(2deg);}
   }
 /**ELEMENTOS REFERENTES AO FLAMINGO*/
   .flamingos{
@@ -168,3 +170,58 @@ width: 75%;
         55%{transform:rotate(0deg);}
         100%{ transform:rotate(0deg);}
         }  
+
+        /**ELEMENTOS REFERENTES A FLORZINHA**/
+        .str0{stroke:black;stroke-width:2;stroke-miterlimit:22.9256}
+        .str1{stroke:black;stroke-width:2;stroke-miterlimit:22.9256}
+
+        .leafc {fill:none}
+
+        .trunk {fill:rgb(5, 189, 66);}
+
+        .leaf{fill:#21dc5f;
+        }
+       .leafc {fill:#21dc5f;}
+        
+
+        .lightl {fill:#3ff27b;}
+
+        .stem {fill:#99FF00;
+          transform-origin: 200px 450px;
+          animation: rotacionaai 10s ease-in-out alternate infinite; }
+        .center {fill:#FF9933;
+          transform-origin: 200px 450px;
+          animation: rotacionaai 10s ease-in-out alternate infinite; }
+        .lightc {fill:#FF9999;
+          transform-origin: 200px 450px;
+          animation: rotacionaai 10s ease-in-out alternate infinite; }
+
+        .flower {fill:#FFFF66;
+          transform-origin: 200px 450px;
+          animation: rotacionaai 10s ease-in-out alternate infinite; }
+
+          .flowerfront {fill:#FFFF66;
+            transform-origin: 200px 450px;
+            animation: rotacionaai 10s ease-in-out alternate infinite; } 
+
+        .lightf {fill:#FFFF99;
+          transform-origin: 200px 450px;
+          animation: rotacionaai 10s ease-in-out alternate infinite; }
+
+          .lightffront {fill:#FFFF99;
+            transform-origin: 200px 450px;
+            animation: rotacionaai 10s ease-in-out alternate infinite; }
+
+          
+        .flowerx {fill:#FFFF66;
+          transform-origin: 200px 450px;
+          animation: rotacionax 10s ease-in-out alternate infinite; }
+
+        @keyframes rotacionaai{
+          0%{transform: rotate(0deg)}
+          30%{transform: rotate(15deg)}
+          40%{transform: rotate(12deg);}
+          50%{transform: rotate(15deg);}
+          80%{transform: rotate(0deg);}
+          100%{transform: rotate(0deg);}
+        }
